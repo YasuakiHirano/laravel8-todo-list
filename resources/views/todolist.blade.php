@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+        <link href="css/app.css" rel="stylesheet">
         <title>todo</title>
     </head>
     <script>
@@ -19,7 +19,7 @@
 
             document.querySelector("#todo_form").action = "{{ route('todo.delete') }}";
             document.querySelector("#todo_form").submit();
-        } 
+        }
     </script>
     <body>
         <ul class="flex p-3 mb-6 bg-blue-600">
